@@ -528,14 +528,16 @@ p.button a {
   .c-sub-menu li {
     padding: 0;
   }
-  .c-sub-menu li a {
+  .c-sub-menu a {
     display: block;
+    text-decoration: none;
+    color: #131D34;
     background-color: #E9F8FB;
     padding: 15px 60px 15px 15px;
     transition-property: background-color;
     transition-duration: 0.3s;
   }
-  .c-sub-menu li:hover a {
+  .c-sub-menu a:hover {
     color: #2498B3;
     background-color: #FFF;
   }

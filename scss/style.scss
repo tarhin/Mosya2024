@@ -587,21 +587,21 @@ header {
   
     li {  
       padding: 0;
+    }
 
-      a {
-        display: block;
-        background-color: #E9F8FB;
-        padding: 15px 60px 15px 15px;
-        transition-property: background-color;
-        transition-duration: .3s;
-      }
+    a {
+      display: block;
+      text-decoration: none;
+      color: #131D34;
+      background-color: #E9F8FB;
+      padding: 15px 60px 15px 15px;
+      transition-property: background-color;
+      transition-duration: .3s;
     }
   
-    li:hover {
-      a {
-        color: #2498B3;
-        background-color: #FFF;
-      }
+    a:hover {
+      color: #2498B3;
+      background-color: #FFF;
     }
   }
   
